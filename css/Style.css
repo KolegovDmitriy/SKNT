@@ -1,0 +1,132 @@
+
+   /* Стили по умолчанию */
+* {
+ 
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    /*outline: none;*/
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background: #efeff4;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.4em;
+}
+
+li {
+    background: #fff;
+}
+
+/*-------------------------*/
+
+.container {    
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto;
+    height: auto;
+    width: 100%;   
+}
+
+.tarif {
+    width: 640px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    background: #fff;
+}
+
+.tarif-header {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25px; 
+    background: #fff;
+    border-bottom: 1px solid #c8c7cc;   
+}
+
+.lable{
+    margin: 13px 0;
+    margin-left: -28px;
+}
+
+.tarif-header > h2 {
+    padding: 18px 0;
+    color: #82C12B;
+    font-weight: normal;
+}
+
+
+.tarif-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background: #fff;
+    border-bottom: 1px solid #c8c7cc;  
+    margin-left: 25px;
+}
+
+
+.speed {
+	display: inline-block;
+	font-size: 30px;
+    margin-bottom: 0.5em;
+    margin-left: -27px;	
+    padding: 0.34em;
+    padding-left: 26px;
+    padding-right: 0.5em;    
+    background: #70603e;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.cost {
+    padding: 0.1em 0;
+    font-size: 1.26em;
+    font-weight: 500;
+    color: #4f585f;
+}
+
+.sknt {
+	display: flex;
+    padding: 22px 26px;
+    font-size: 26px;
+    background: #fff;
+}
+
+.sknt a {
+    color: #0f76ff;
+}
+
+
+.select-tarif{
+    padding: -0.1em; 
+    cursor: pointer;
+    opacity: 0.6;
+    color: #c4c4c9;
+}
+
+.select-tarif > i:hover{
+	color: #454545;
+}
+
+
+.tarif-options {
+    line-height: 1.25em;
+    color: #4D575D;
+}
